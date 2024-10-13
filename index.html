@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main id="task-manager">
+        <div id="toggle_container">
+            <button id="toggle_theme" class="buttons" type="submit">
+                Theme
+            </button>
+        </div>
+        <div id="title_container">
+            <h1 id="title">Task Manager</h1>
+        </div>
+        <form id="form_container" action="">
+            <input id="input-task" type="text" placeholder="Enter a new Task" required>
+            <button class="buttons" type="submit">Add Task</button>
+        </form>
+        <section id="task_container">
+            <ul id="list_task">
+                <!-- <li class="itemTask">
+                    Task content
+                    <div class="button-modificated">
+                        <span class="material-symbols-outlined button-delete">
+                            delete
+                        </span>
+                        <span class="material-symbols-outlined button-edit">
+                            edit
+                        </span>
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
