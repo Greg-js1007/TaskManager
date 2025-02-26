@@ -14,6 +14,7 @@ taskForm.addEventListener("submit", (event) => {
 
     const taskInput = document.getElementById("input-task"); 
     const task = taskInput.value;
+    console.log(task);
 
     if(task) {
         taskList.append(createTaskElement(task));

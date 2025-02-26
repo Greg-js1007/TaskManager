@@ -115,8 +115,9 @@ body.dark-theme {
     background-color: #f0f0f0;
     border-radius: 5px;
     width: auto;
-    padding: 2.5px 0;
+    padding: 5px;
     height: 100%;
+    text-align: center;
 }
 
 .button-modificated{
@@ -132,7 +133,7 @@ body.dark-theme {
 
 @media(max-width: 425px) {
     #task-manager{
-        width: 80vw;
+        width: 90vw;
         height: 80%;
     }
 
