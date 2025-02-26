@@ -126,7 +126,7 @@ body.dark-theme {
 
 .itemTask span{
     padding-left: 5px;
-    height: 100%;
+    height: auto;
     width: 2rem;
 }
 
