@@ -6,6 +6,8 @@ const buttonEdit = document.getElementsByClassName("button-edit");
 
 const buttonDelete = document.getElementsByClassName("button-delete");
 
+const footer = document.getElementsByClassName("footer_container");
+
 
 loadTask(); 
 
@@ -119,4 +121,5 @@ themeToggleButton.addEventListener("click", () => {
 
 if(currentTheme == "dark"){
     document.body.classList.add("dark-theme")
+    footer.classList.add("dark-theme")
 }

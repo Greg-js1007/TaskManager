@@ -53,6 +53,10 @@ body.dark-theme {
 
 }
 
+.dark-theme .footer_container p{
+    color: #fff;
+}
+
 .dark-theme #task-manager {
     background: #222;
 }
@@ -159,5 +163,11 @@ body.dark-theme {
     }
     #task_container{
         width: 100%;
+    }
+    .footer_container{
+        width: 90vw;
+    }
+    .footer_container p {
+        text-align: center;
     }
 }
