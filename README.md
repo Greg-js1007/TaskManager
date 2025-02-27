@@ -1,6 +1,6 @@
 # Task Manager
 
-Este proyecto es una manejador de tareas simple para practicar conceptos basicos de: 
+Este proyecto es un manejador de tareas simple para practicar conceptos basicos de: 
 
 - JS Y DOM 
 - CSS 
